@@ -7,7 +7,7 @@ public class Main {
         // test IsUnique
         IsUnique obj = new IsUnique();
         String[] testedWords = {" ", "a", "ab", "aaa", "abcdea"}; // T, T, T, F, F
-        obj.testIsUnique1(testedWords);
+        obj.testIsUnique2(testedWords);
 
 
 
