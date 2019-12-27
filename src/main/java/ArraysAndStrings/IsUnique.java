@@ -1,8 +1,13 @@
 package ArraysAndStrings;
 
 // determine if a string has all unique characters
-// what if no data structures are used?
 // is ASCII or Unicode used? 128 or 256?
+
+// what if no data structures are allowed?
+// -- 1) O(N^2) compare each character against every other
+// -- 2) sort it and check for duplicates
+
+// TODO: solve using bit vector
 
 import java.util.HashSet;
 
@@ -52,5 +57,4 @@ public class IsUnique {
             System.out.println(isUnique2(s));
         }
     }
-
 }
